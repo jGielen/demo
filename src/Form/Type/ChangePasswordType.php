@@ -48,6 +48,7 @@ class ChangePasswordType extends AbstractType
                     new Length([
                         'min' => 5,
                         'max' => 128,
+                        'allowEmptyString' => false
                     ]),
                 ],
                 'first_options' => [
